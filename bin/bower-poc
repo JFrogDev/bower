@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
-process.bin = process.title = 'bower';
+process.bin = process.title = 'bower-poc';
 
 var Q = require('q');
 var mout = require('mout');
@@ -74,7 +74,7 @@ analytics.setup(bower.config).then(function () {
     commandFunc = command && mout.object.get(bower.commands, command);
     command = command && command.replace(/\./g, ' ');
 
-    // If no command was specified, show bower help
+    // If no command was specified, show bower-poc help
     // Do the same if the command is unknown
     if (!commandFunc) {
         logger = bower.commands.help();
