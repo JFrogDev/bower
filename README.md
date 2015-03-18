@@ -86,7 +86,7 @@ Bower can be configured using JSON in a `.bowerrc` file. Read over available opt
 _NOTE_: Completion is still not implemented for the 1.0.0 release
 
 Bower now has an experimental `completion` command that is based on, and works
-similarly to the [npm completion](https://npmjs.org/doc/completion.html). It is
+similarly to the [npm completion](https://npmjs.org/doc/cli/completion.html). It is
 not available for Windows users.
 
 This command will output a Bash / ZSH script to put into your `~/.bashrc`,
@@ -130,7 +130,6 @@ Bower is made by lots of people across the globe, contributions large and small.
 * [@wibblymat](https://github.com/wibblymat)
 * [@paulirish](https://github.com/paulirish)
 * [@benschwarz](https://github.com/benschwarz)
-* [@sindresorhus](https://github.com/sindresorhus)
 * [@svnlto](https://github.com/svnlto)
 * [@sheerun](https://github.com/sheerun)
 
@@ -142,6 +141,6 @@ Bower is made by lots of people across the globe, contributions large and small.
 
 ## License
 
-Copyright (c) 2014 Twitter and other contributors
+Copyright (c) 2015 Twitter and other contributors
 
 Licensed under the MIT License
