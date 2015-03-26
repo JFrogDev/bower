@@ -80,7 +80,7 @@
     "test": "grunt test"
   },
   "bin": {
-    "bower-poc": "bin/bower-poc"
+    "bower-poc": "bin/bower-art"
   },
   "preferGlobal": true
 }
